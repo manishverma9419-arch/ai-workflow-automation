@@ -23,4 +23,24 @@
 - Check whether connected accounts are authorized.
 - Verify recipient addresses and required fields.
 - Review the scenario execution history for errors.
+## Workflow Architecture
+
+This project demonstrates no-code workflow automation using Make.com.
+
+### Workflow Flow
+
+1. **Trigger:** The configured Make.com scenario starts based on its trigger settings.
+2. **Data Source:** Recipient information is obtained from the configured source, if applicable.
+3. **Processing:** Make.com executes the connected workflow modules.
+4. **Email Action:** The email is sent through the configured email service.
+5. **Monitoring:** Execution status can be reviewed in Make.com.
+
+### Learning Outcomes
+
+- Building visual automation workflows
+- Connecting applications using Make.com
+- Testing automation scenarios
+- Documenting and maintaining a GitHub project
+- Handling credentials and recipient data securely
+
 
